@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #414141;
+}
+.app{
+    background: #fff;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 100px auto 0;
+}
+.app h1{
+    font-size: 25px;
+    color:#267bad;
+    font-weight: 600;
+    border-bottom: 1px solid #414147;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 10px 0;
+}
+.quiz h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: #267bad;
+}
+.btn{
+    background: #fff;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #414147;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3;
+}
+.btn:hover:not([disabled]){
+    background: #267bad;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: not-allowed;
+}
+#next-btn{
+    background: #1c761c;
+    color: #fff;
+    width: 150px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto 0;
+    display: none;
+    cursor: pointer;
+}
+.correct{
+    background: #1c761ca4;
+}
+.incorrect{
+    background: #a80a0a94;
+}
+.score{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ff0000;
+    text-align: center;
+}
